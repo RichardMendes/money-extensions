@@ -4,6 +4,26 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <PackageId>MoneyExtensions8.0</PackageId>
+    <Version>1.0.1</Version>
+    <License>MIT</License>
+    <Authors>Richard Mendes</Authors>
+    <PackageDescription>Money Conversions made easy</PackageDescription>
+    <Description>Money Conversions made easy</Description>
+    <RepositoryUrl>https://github.com/RichardMendes/money-extensions</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/RichardMendes/money-extensions</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageTags>Money;Conversions;Currency</PackageTags>
+    <Title>Money Extensions8.0</Title>
+    <Summary>MoneyExtensions is a easy way to incorporate currency conversions to your codes</Summary>
+
+
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Media\icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
 </Project>
